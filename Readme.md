@@ -4,7 +4,7 @@
 - here if i request in the /process_image url with a image file it will response me with base64 image data
 
 ### demo Pic
-<img src='uploads/result.png' width='500px' height='400px'>
+<img src='result.jpg' width='500px' height='400px'>
 
 ###
 

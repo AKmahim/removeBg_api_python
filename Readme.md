@@ -3,6 +3,9 @@
 - This is a python flask api for remove image background and add a new background in the picture
 - here if i request in the /process_image url with a image file it will response me with base64 image data
 
+### demo Pic
+<img src='uploads/result.png' width='500px' height='400px'>
+
 ###
 
 ### Package I have used here
@@ -22,3 +25,4 @@ pip install rembg
 ``` bash
 pip install flask_cors
 ```
+

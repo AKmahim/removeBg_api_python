@@ -60,7 +60,7 @@ def process_image():
 
         # Define custom positioning and sizing
         position = (0, 10)  # The position where you want to place the overlay image (x, y)
-        size = (250, 300)  # The size to which you want to resize the overlay image (width, height)
+        size = (320, 300)  # The size to which you want to resize the overlay image (width, height)
 
         # Remove the background from the uploaded image
         img_without_bg = remove_bg(filename)

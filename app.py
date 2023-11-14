@@ -59,14 +59,14 @@ def process_image():
         file.save(filename)
 
         # Define custom positioning and sizing
-        position = (0, 10)  # The position where you want to place the overlay image (x, y)
-        size = (320, 300)  # The size to which you want to resize the overlay image (width, height)
+        position = (100, 370)  # The position where you want to place the overlay image (x, y)
+        size = (800, 1000)  # The size to which you want to resize the overlay image (width, height)
 
         # Remove the background from the uploaded image
         img_without_bg = remove_bg(filename)
 
         # Overlay the processed image on a background
-        result_image = overlay_img(img_without_bg, 'banner.png', position, size)
+        result_image = overlay_img(img_without_bg, 'banner3.jpg', position, size)
 
         # Save the result
         result_filename = os.path.join(app.config['UPLOAD_FOLDER'], 'result.png')
